@@ -4,12 +4,12 @@ const fs = require('fs')
 const path = require('path')
 const AccountAPI = require('./datasources/accounts')
 
-// const typeDefs = fs.readFileSync(
-//     path.join(__dirname, 'schema.graphql'),
-//     'utf-8'
-// )
+const typeDefs = fs.readFileSync(
+    path.join(__dirname, 'schema.graphql'),
+    'utf-8'
+)
 
-const typeDefs = require('./schema')
+// const typeDefs = require('./schema')
 
 const dataSources = () => ({
     accountAPI: new AccountAPI()

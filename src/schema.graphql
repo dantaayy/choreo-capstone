@@ -1,8 +1,11 @@
 type Query {
-    allAccounts: [Account]
-    account(id: ID!): Account
-    highCreditBalance: [Account!]
-    lowCreditBalance: [Account!]
+    accounts(
+        id: ID,
+        name: String,
+        email: String,
+    ): [Account],
+    highCreditBalance: [Account!],
+    lowCreditBalance: [Account!],
 }
 
 type Mutation {
@@ -11,22 +14,22 @@ type Mutation {
         email: String!,
         phone: String!,
         address: String!
-    ): Account!
+    ): Account!,
     updateAccount(
         id: ID!,
         name: String,
         email: String,
         phone: String,
-        address: String): Account!
-    deleteAccount(id: ID!): Account
+        address: String): Account!,
+    deleteAccount(id: ID!): Account,
     addPurchase(id: ID!, purchases: String!): Account!
 }
 
 type Account {
-    id: ID!
-    name: String!
-    email: String!
-    phone: String!
-    address: String!
-    openDate: String!
+    id: ID,
+    name: String,
+    email: String,
+    phone: String,
+    address: String,
+    openDate: String
 }
