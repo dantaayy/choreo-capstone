@@ -1,5 +1,5 @@
 type Query {
-    allAccounts: [Account!]
+    allAccounts: [Account]
     account(id: ID!): Account
     highCreditBalance: [Account!]
     lowCreditBalance: [Account!]
