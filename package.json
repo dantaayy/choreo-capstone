@@ -1,0 +1,28 @@
+{
+  "name": "choreo-capstone",
+  "version": "1.0.0",
+  "description": "# this project will be an API to grab all of a clients credit card transactions in a given period. Too long of a period will be too much overload # so it will be for the last year of the current date",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dantaayy/choreo-capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dantaayy/choreo-capstone/issues"
+  },
+  "homepage": "https://github.com/dantaayy/choreo-capstone#readme",
+  "dependencies": {
+    "apollo-datasource": "^3.3.2",
+    "apollo-server": "^3.10.1",
+    "graphql": "^16.6.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.19"
+  }
+}
