@@ -143,7 +143,7 @@ let accounts = [
           "price": "$446.30"
         },
         {
-          "product": "Ikea couhc",
+          "product": "Ikea couch",
           "price": "$351.95"
         }
       ],
