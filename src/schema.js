@@ -29,10 +29,10 @@ type Mutation {
 }
 
 type Account {
-    id: ID!,
-    name: String!,
-    email: String!,
-    phone: String!,
-    address: String!,
-    openDate: String!
+    id: ID,
+    name: String,
+    email: String,
+    phone: String,
+    address: String,
+    openDate: String
 }`

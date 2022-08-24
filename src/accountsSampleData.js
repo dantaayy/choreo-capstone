@@ -1,8 +1,8 @@
 let accounts = [
     {
-      "_id": "63064a759c089d8cf072494d",
+      "id": "63064a759c089d8cf072494d",
       "isActive": true,
-      "balance": "$1,521.90",
+      "balance": "1,521.90",
       "name": "Kim Floyd",
       "email": "kimfloyd@pasturia.com",
       "phone": "+1 (817) 585-2149",
@@ -25,9 +25,9 @@ let accounts = [
       "greeting": "Hello, Kim Floyd! You have 2 unread messages."
     },
     {
-      "_id": "63064a7507295860141cd2c4",
+      "id": "63064a7507295860141cd2c4",
       "isActive": true,
-      "balance": "$4,294.95",
+      "balance": "4,294.95",
       "name": "Pollard Mcgowan",
       "email": "pollardmcgowan@pasturia.com",
       "phone": "+1 (904) 579-2789",
@@ -50,9 +50,9 @@ let accounts = [
       "greeting": "Hello, Pollard Mcgowan! You have 3 unread messages."
     },
     {
-      "_id": "63064a759761f22f4bbd7fc8",
+      "id": "63064a759761f22f4bbd7fc8",
       "isActive": true,
-      "balance": "$3,812.34",
+      "balance": "3,812.34",
       "name": "Barber Hickman",
       "email": "barberhickman@pasturia.com",
       "phone": "+1 (928) 459-3560",
@@ -75,9 +75,9 @@ let accounts = [
       "greeting": "Hello, Barber Hickman! You have 4 unread messages."
     },
     {
-      "_id": "63064a75d43afc0b021a2adc",
+      "id": "63064a75d43afc0b021a2adc",
       "isActive": false,
-      "balance": "$3,677.38",
+      "balance": "3,677.38",
       "name": "Cherry Lara",
       "email": "cherrylara@pasturia.com",
       "phone": "+1 (889) 447-3372",
@@ -100,9 +100,9 @@ let accounts = [
       "greeting": "Hello, Cherry Lara! You have 1 unread messages."
     },
     {
-      "_id": "63064a753e408ca8608c9a0b",
+      "id": "63064a753e408ca8608c9a0b",
       "isActive": false,
-      "balance": "$4,463.76",
+      "balance": "4,463.76",
       "name": "Kim Combs",
       "email": "kimcombs@pasturia.com",
       "phone": "+1 (842) 540-3734",
@@ -125,9 +125,9 @@ let accounts = [
       "greeting": "Hello, Kim Combs! You have 8 unread messages."
     },
     {
-      "_id": "63064a755b892316b1916525",
+      "id": "63064a755b892316b1916525",
       "isActive": false,
-      "balance": "$1,679.86",
+      "balance": "1,679.86",
       "name": "Marion Gordon",
       "email": "mariongordon@pasturia.com",
       "phone": "+1 (948) 554-3659",
