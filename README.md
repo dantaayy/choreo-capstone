@@ -26,7 +26,6 @@ The aim for this project is to be in the shoes of a credit card company. The com
 ---
 
 ## Technologies
-Example of how to list out your tech
 
 - JavaScript
 - Apollo Server - version 3.10.1
