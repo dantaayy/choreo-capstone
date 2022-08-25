@@ -4,6 +4,7 @@ const fs = require('fs')
 const path = require('path')
 const AccountAPI = require('./datasources/accounts')
 
+// SCHEMA
 const typeDefs = fs.readFileSync(
     path.join(__dirname, 'schema.graphql'),
     'utf-8'

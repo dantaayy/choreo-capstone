@@ -4,8 +4,9 @@ module.exports = {
     },
     highCreditBalance: (parent, args, {dataSources}, info) => {
         return dataSources.accountAPI.highCreditBalance();
+    },
+    lowCreditBalance: (parent, args, {dataSources}, info) => {
+        return dataSources.accountAPI.lowCreditBalance();
     }
-
-
 
 }

@@ -9,12 +9,7 @@ type Query {
 }
 
 type Mutation {
-    addAccount(
-        name: String!,
-        email: String!,
-        phone: String!,
-        address: String!
-    ): Account!,
+    addAccount(account: newAccount): Account,
     updateAccount(
         id: ID!,
         name: String,
@@ -22,7 +17,7 @@ type Mutation {
         phone: String,
         address: String): Account!,
     deleteAccount(id: ID!): Account,
-    addPurchase(id: ID!, purchases: String!): Account!
+    addPurchase(id: ID!, purchase: addPurchase): Purchases!
 }
 
 type Account {
@@ -31,5 +26,24 @@ type Account {
     email: String,
     phone: String,
     address: String,
-    openDate: String
+    openDate: String,
+    balance: String,
+    purchases: [Purchases]
+}
+
+input newAccount {
+    name: String!,
+    email: String!,
+    phone: String!,
+    address: String!,
+}
+
+type Purchases {
+    product: String!,
+    price: String!
+}
+
+input addPurchase {
+    product: String!,
+    price: String!
 }

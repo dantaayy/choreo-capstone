@@ -1,6 +1,6 @@
 let accounts = [
     {
-      "id": "63064a759c089d8cf072494d",
+      "id": "1",
       "isActive": true,
       "balance": "1,521.90",
       "name": "Kim Floyd",
@@ -25,7 +25,7 @@ let accounts = [
       "greeting": "Hello, Kim Floyd! You have 2 unread messages."
     },
     {
-      "id": "63064a7507295860141cd2c4",
+      "id": "2",
       "isActive": true,
       "balance": "4,294.95",
       "name": "Pollard Mcgowan",
@@ -50,7 +50,7 @@ let accounts = [
       "greeting": "Hello, Pollard Mcgowan! You have 3 unread messages."
     },
     {
-      "id": "63064a759761f22f4bbd7fc8",
+      "id": "3",
       "isActive": true,
       "balance": "3,812.34",
       "name": "Barber Hickman",
@@ -75,7 +75,7 @@ let accounts = [
       "greeting": "Hello, Barber Hickman! You have 4 unread messages."
     },
     {
-      "id": "63064a75d43afc0b021a2adc",
+      "id": "4",
       "isActive": false,
       "balance": "3,677.38",
       "name": "Cherry Lara",
@@ -100,7 +100,7 @@ let accounts = [
       "greeting": "Hello, Cherry Lara! You have 1 unread messages."
     },
     {
-      "id": "63064a753e408ca8608c9a0b",
+      "id": "5",
       "isActive": false,
       "balance": "4,463.76",
       "name": "Kim Combs",
@@ -125,7 +125,7 @@ let accounts = [
       "greeting": "Hello, Kim Combs! You have 8 unread messages."
     },
     {
-      "id": "63064a755b892316b1916525",
+      "id": "6",
       "isActive": false,
       "balance": "1,679.86",
       "name": "Marion Gordon",
