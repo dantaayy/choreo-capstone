@@ -7,5 +7,8 @@ module.exports = {
     },
     addPurchase: (parent, {id, purchase}, {dataSources}, info) => {
         return dataSources.accountAPI.addPurchase({id, purchase});
+    },
+    deleteAccount: (parent, {id}, {dataSources}, info) => {
+        return dataSources.accountAPI.deleteAccount({id})
     }
 }

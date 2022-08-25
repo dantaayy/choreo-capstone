@@ -43,6 +43,15 @@ class AccountAPI extends DataSource {
         return account
     }
 
+    // MUTATION TO DELETE AN ACCOUNT
+    deleteAccount({id}) {
+        const index = accounts.findIndex((item) => item.id === id)
+        // DELTE ACCOUNT AT ITS INDEX AND ONLY THAT 1 ITEM
+        accounts.splice(index, 1)
+        
+        return accounts;
+    }
+
     // MUTATION TO UPDATE ACCOUNT
     updateAccount({id, name, email, phone, address}) {
         const foundAccount = accounts.find((item) => item.id === id)
