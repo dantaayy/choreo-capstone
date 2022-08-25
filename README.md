@@ -1,8 +1,6 @@
 # choreo-capstone
 
-###### This project will be an API to grab all of a clients accounts and recent credit card transactions
-
-PROJECT DESCRIPTION
+This project will be an API to grab all of a clients accounts and recent credit card transactions
 
 ## Competencies
 
