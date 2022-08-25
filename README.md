@@ -54,13 +54,13 @@ $ npm start
 ## Features
 
 - Get ALL Accounts
-- Filter Accounts by any column
+- Filter Accounts by id, name or email
 - Get accounts OVER $2500 account balance
 - Get accounts BELOW $2500 account balance
 - Create a new Account/Client
-- Update an existing client
-- Delete an account by ID
-- Add watched purchases to an account purchase list
+- Update an existing Account/Client
+- Delete an Account/Client by ID
+- Add purchases to an account purchase list
 
 
 ---
