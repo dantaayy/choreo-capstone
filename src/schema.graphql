@@ -17,7 +17,7 @@ type Mutation {
         phone: String,
         address: String): Account!,
     deleteAccount(id: ID!): Account,
-    addPurchase(id: ID!, purchase: addPurchase): Purchases!
+    addPurchase(id: ID!, purchase: addPurchase): Account
 }
 
 type Account {
@@ -27,7 +27,7 @@ type Account {
     phone: String,
     address: String,
     openDate: String,
-    balance: String,
+    balance: Float,
     purchases: [Purchases]
 }
 
@@ -40,10 +40,10 @@ input newAccount {
 
 type Purchases {
     product: String!,
-    price: String!
+    price: Float!
 }
 
 input addPurchase {
     product: String!,
-    price: String!
+    price: Float!
 }

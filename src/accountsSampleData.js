@@ -2,7 +2,7 @@ let accounts = [
     {
       "id": "1",
       "isActive": true,
-      "balance": "1,521.90",
+      "balance": 1521.90,
       "name": "Kim Floyd",
       "email": "kimfloyd@pasturia.com",
       "phone": "+1 (817) 585-2149",
@@ -11,15 +11,15 @@ let accounts = [
       "purchases": [
         {
           "product": "Yeezy 350V2 Boost",
-          "price": "$378.85"
+          "price": 378.85
         },
         {
           "product": "Lululemon Jacket",
-          "price": "$84.23"
+          "price": 84.23
         },
         {
           "product": "HyperX 16GB Ram",
-          "price": "$246.10"
+          "price": 246.10
         }
       ],
       "greeting": "Hello, Kim Floyd! You have 2 unread messages."
@@ -27,7 +27,7 @@ let accounts = [
     {
       "id": "2",
       "isActive": true,
-      "balance": "4,294.95",
+      "balance": 4294.95,
       "name": "Pollard Mcgowan",
       "email": "pollardmcgowan@pasturia.com",
       "phone": "+1 (904) 579-2789",
@@ -36,15 +36,15 @@ let accounts = [
       "purchases": [
         {
           "product": "Nespresso",
-          "price": "$322.86"
+          "price": 322.86
         },
         {
           "product": "Amazon Echo",
-          "price": "$71.77"
+          "price": 71.77
         },
         {
           "product": "Standing Desk Ikea",
-          "price": "$483.57"
+          "price": 483.57
         }
       ],
       "greeting": "Hello, Pollard Mcgowan! You have 3 unread messages."
@@ -52,7 +52,7 @@ let accounts = [
     {
       "id": "3",
       "isActive": true,
-      "balance": "3,812.34",
+      "balance": 3812.34,
       "name": "Barber Hickman",
       "email": "barberhickman@pasturia.com",
       "phone": "+1 (928) 459-3560",
@@ -61,15 +61,15 @@ let accounts = [
       "purchases": [
         {
           "product": "LG 34 in Ultrawide Screen",
-          "price": "$462.68"
+          "price": 462.68
         },
         {
           "product": "SONY Overear Headphones",
-          "price": "$361.83"
+          "price": 361.83
         },
         {
           "product": "Ergonomic Chair",
-          "price": "$406.40"
+          "price": 406.40
         }
       ],
       "greeting": "Hello, Barber Hickman! You have 4 unread messages."
@@ -77,7 +77,7 @@ let accounts = [
     {
       "id": "4",
       "isActive": false,
-      "balance": "3,677.38",
+      "balance": 3677.38,
       "name": "Cherry Lara",
       "email": "cherrylara@pasturia.com",
       "phone": "+1 (889) 447-3372",
@@ -86,15 +86,15 @@ let accounts = [
       "purchases": [
         {
           "product": "Wifi Router",
-          "price": "$240.10"
+          "price": 240.10
         },
         {
           "product": "Costco bed Comforter",
-          "price": "$357.73"
+          "price": 357.73
         },
         {
           "product": "Ikea drawer set",
-          "price": "$309.41"
+          "price": 309.41
         }
       ],
       "greeting": "Hello, Cherry Lara! You have 1 unread messages."
@@ -102,7 +102,7 @@ let accounts = [
     {
       "id": "5",
       "isActive": false,
-      "balance": "4,463.76",
+      "balance": 4463.76,
       "name": "Kim Combs",
       "email": "kimcombs@pasturia.com",
       "phone": "+1 (842) 540-3734",
@@ -111,15 +111,15 @@ let accounts = [
       "purchases": [
         {
           "product": "Dumbell set",
-          "price": "$359.19"
+          "price": 359.19
         },
         {
           "product": "Beats wireless headphones",
-          "price": "$111.06"
+          "price": 111.06
         },
         {
           "product": "Oil change and new tires for car",
-          "price": "$499.54"
+          "price": 499.54
         }
       ],
       "greeting": "Hello, Kim Combs! You have 8 unread messages."
@@ -127,7 +127,7 @@ let accounts = [
     {
       "id": "6",
       "isActive": false,
-      "balance": "1,679.86",
+      "balance": 1679.86,
       "name": "Marion Gordon",
       "email": "mariongordon@pasturia.com",
       "phone": "+1 (948) 554-3659",
@@ -136,15 +136,15 @@ let accounts = [
       "purchases": [
         {
           "product": "Nike Air Jordan 1 Bred",
-          "price": "$168.01"
+          "price": 168.01
         },
         {
           "product": "Costco mattress",
-          "price": "$446.30"
+          "price": 446.30
         },
         {
           "product": "Ikea couch",
-          "price": "$351.95"
+          "price": 351.95
         }
       ],
       "greeting": "Hello, Marion Gordon! You have 5 unread messages."
