@@ -20,7 +20,10 @@ This project will be an API to grab all of a clients accounts and recent credit 
 
 ## Introduction
 
-The aim for this project is to be in the shoes of a credit card company. The company would like to send out emails/mail to their clients regarding their accounts balances, and recent transactions. By company standards if an account balance is at or above $2,500 the cleint will receiver either a paper copy in the mail to pay their balance or by email depending on what they opt in to. Those who do not have a balance over $2,500 will still get a paper copy/mail notifcation but it won't be an urgent message.
+- The aim for this project is to be in the shoes of a credit card company
+- The company would like to send out emails/mail to their clients regarding their accounts balances, and recent transactions
+- By company standards if an account balance is at or above $2,500 the cleint will receive either a paper copy in the mail to pay their balance or by email depending on what they opt in to
+- Those who do not have a balance over $2,500 will still get a paper copy/mail notifcation but it won't be an urgent message.
  
 
 ---
