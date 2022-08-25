@@ -24,7 +24,8 @@ This project will be an API to grab all of a clients accounts and recent credit 
 - The company would like to send out emails/mail to their clients regarding their accounts balances, and recent transactions
 - By company standards if an account balance is at or above $2,500 the cleint will receive either a paper copy in the mail to pay their balance or by email depending on what they opt in to
 - Those who do not have a balance over $2,500 will still get a paper copy/mail notifcation but it won't be an urgent message.
- 
+
+GraphQL will be very useful for this company because if they have thousands of clients, the company can easily query and filter out the accounts they want to take note of or get in contact with. GraphQL will do this in an efficient and fast way without having to over fecth data. GraphQL will also accomodate for under fetching and cut out the need to have multiple different endpoints that can in turn add weight to the website and slow the response down. CLients like to get their data fast and effieciently without any issues otherwise that can lost business/trust.
 
 ---
 
